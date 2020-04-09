@@ -61,7 +61,7 @@ export default function $axios(options) {
             resolve(res);
             return false;
         }).catch (error => {
-            reject(error);
+            return Promise.reject(error);
         })
     })
 }

@@ -11,6 +11,7 @@
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
     "element-ui": "^2.4.5",
+    "js-cookie": "^2.2.1",
     "vue": "^2.6.11",
     "vue-router": "^3.1.6"
   },
@@ -40,7 +41,7 @@
       "parser": "babel-eslint"
     },
     "rules": {
-      "no-unused-vars":"off"
+      "no-unused-vars": "off"
     }
   },
   "browserslist": [

@@ -1,4 +1,4 @@
-import login from './modules/login'
+import * as login from './modules/login'
 
 export default {
     login
